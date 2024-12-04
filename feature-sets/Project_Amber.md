@@ -2,18 +2,25 @@
 ===============
 
 - explore and incubate smaller, productivity-oriented Java language features
+- make Java feel like a modern language (like Kotlin)
 
 
 ## [JEP 286: Local-Variable Type Inference](https://openjdk.org/jeps/286) (Java 10)
+allow var for inferrable variable types
 
 
 ## [JEP 323: Local-Variable Syntax for Lambda Parameters](https://openjdk.org/jeps/323) (Java 11)
+allow automatic parameter types inferrence of implicitly typed lambda expressions
 
 
 ## [JEP 361: Switch Expressions](https://openjdk.org/jeps/361) (Java 14)
+switch can now be used as an expression
 
 
 ## [JEP 378: Text Blocks](https://openjdk.org/jeps/378) (Java 15)
+multi-line string literal that avoids the need for most escape sequence
+- automatically formats the string in a predictable way
+- gives the developer control over the format when desired
 
 
 ## [JEP 394: Pattern Matching for instanceof](https://openjdk.org/jeps/394) (Java 14-16)
@@ -54,3 +61,7 @@ allow statements that do not reference the instance being created to appear befo
 allows writing a simple Java program with less builerplate code
 - (main) method outside of main class (implicitly generated)
 - automatic import of useful methods like `println` (`System.out`)
+
+
+## Resources
+- [Pattern Matching](https://openjdk.org/projects/amber/design-notes/patterns/pattern-matching-for-java)
